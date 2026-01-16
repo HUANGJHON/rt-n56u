@@ -8,11 +8,11 @@
 #define BOARD_MODEL_URL		"http://www.jcgcn.com/"
 #define BOARD_BOOT_TIME		20
 #define BOARD_FLASH_TIME	120
-#define BOARD_GPIO_BTN_RESET	18
-#define BOARD_GPIO_BTN_WPS	16
+#define BOARD_GPIO_BTN_RESET	7
+#define BOARD_GPIO_BTN_WPS	6
 #undef  BOARD_GPIO_LED_ALL
 #undef  BOARD_GPIO_LED_WIFI
-#define BOARD_GPIO_LED_POWER	15	/* sys_blue: 15, sys_red: 14 */
+#define BOARD_GPIO_LED_POWER	15	/* sys_green: 15, sys_red: 13 */
 #undef  BOARD_GPIO_LED_LAN
 #undef  BOARD_GPIO_LED_WAN
 #undef  BOARD_GPIO_LED_USB
